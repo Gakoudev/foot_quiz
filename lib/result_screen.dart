@@ -85,10 +85,10 @@ class ResultScreen extends StatelessWidget {
                 const SizedBox(
                   height: 30,
                 ),
-                (numCorrectQuestion <= numTotalQuestion / 2 + 1)
+                (numCorrectQuestion <= numTotalQuestion / 2)
                     ? OutlinedButton.icon(
                         onPressed: restartQuiz,
-                        label: const Text('Restart Quiz!'),
+                        label: const Text('Redémarer!'),
                         icon: const Icon(Icons.restart_alt_rounded),
                         style: OutlinedButton.styleFrom(
                           foregroundColor:
@@ -97,7 +97,7 @@ class ResultScreen extends StatelessWidget {
                       )
                     : OutlinedButton.icon(
                         onPressed: () => {nextLevel!(numCorrectQuestion)},
-                        label: const Text('Next Level!'),
+                        label: const Text('Suivant!'),
                         icon: const Icon(Icons.arrow_right),
                         style: OutlinedButton.styleFrom(
                           foregroundColor:

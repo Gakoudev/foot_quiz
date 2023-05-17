@@ -16,7 +16,7 @@ List<QuizQuestion> level4 = [
         'Romário',
         'Zico',
       ]),
-  QuizQuestion('Quel joueur a remporté le Ballon d\'or ?', [
+  QuizQuestion('Quel joueur a remporté le premier Ballon d\'or ?', [
     'Stanley Matthews',
     'Diego Maradona',
     'Pelé',
@@ -68,11 +68,11 @@ List<QuizQuestion> level4 = [
         'Miroslav Klosea',
       ]),
   QuizQuestion(
-      'Qui est le seul joueur à avoir remporté la Coupe du Monde de la FIFA, la Ligue des Champions de l\'UEFA et le Ballon d\'Or au cours de la même année ?',
+      'Après avoir joué au Girondins de Bordeaux, dans quel club Zidane a-t-il été transféré ?',
       [
-        'Zinedine Zidane',
-        'Pelé',
-        'Diego Maradona',
-        'Lionel Messi',
+        'Juventus',
+        'OM',
+        'Real Madrid',
+        'Monaco',
       ]),
 ];

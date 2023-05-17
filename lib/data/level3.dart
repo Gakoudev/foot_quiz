@@ -69,11 +69,11 @@ List<QuizQuestion> level3 = [
     'Arsenal',
   ]),
   QuizQuestion(
-      'Qui a marqué le but de la victoire pour l\'Espagne en finale de la Coupe du Monde 2010 ?',
+      'Quel joueur allemand a inscrit 16 buts en phase finale de Coupe du monde ?',
       [
-        'Andrés Iniesta',
-        'Fernando Torres',
-        'David Villa',
-        'Xavi Hernández',
+        'Miroslave Klose',
+        'Gerd Müller',
+        'Thomas Müller',
+        'Marco Reus',
       ]),
 ];

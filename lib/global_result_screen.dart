@@ -34,10 +34,14 @@ class GlobalResultScreen extends StatelessWidget {
               fontSize: 18,
               fontWeight: FontWeight.bold,
             ),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(
+            height: 30,
           ),
           Image.asset(
             img,
-            width: 400,
+            width: 350,
           ),
           const SizedBox(
             height: 20,
@@ -45,7 +49,7 @@ class GlobalResultScreen extends StatelessWidget {
           Text(
             result,
             style: GoogleFonts.lato(
-              color: Color.fromARGB(255, 201, 153, 251),
+              color: const Color.fromARGB(255, 201, 153, 251),
               fontSize: 30,
               fontWeight: FontWeight.bold,
             ),
