@@ -1,16 +1,7 @@
 # foot_quiz
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Application de Quiz sur le Foot
+Les Quiz sont subdivisés en 4 niveaux (level1, level2, level3 et level4). Chaque Niveau est dans une liste de Quizquestion. 
+Un Quizquestion est une classe contenat une question et d'une liste 4  réponses. la bonne réponse est le premier élément de la liste des réponse.
+La liste des réponses est affiché de manière aléatoire grace à la fonction shuffle() afin que la bonne réponse ne soit pas affiché toujours en premier.
+Pour passer d'un niveau à un autre, il faux avoir au moins 6 bonnes réponse.
