@@ -66,7 +66,6 @@ flutter:
     - assets/images/king.png
     - assets/images/midle.png
     - assets/images/worst.png
-    - assets/images/foot.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

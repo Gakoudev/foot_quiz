@@ -55,14 +55,12 @@ List<QuizQuestion> level2 = [
     'Brésil',
     'Chili',
   ]),
-  QuizQuestion(
-      'Quelle équipe a remporté le plus de titres de la Coupe d\'Afrique des Nations ?',
-      [
-        'Égypte',
-        'Cameroun',
-        'Nigeria',
-        'Ghana',
-      ]),
+  QuizQuestion('Qui est le meilleur passeur de la Ligue des champions?', [
+    'Cristiano Ronaldo',
+    'Lionel Messi',
+    'Xavi Hernandez',
+    'Ryan Giggs',
+  ]),
   QuizQuestion(
       'Quel joueur a remporté le titre de meilleur jeune joueur de la Coupe du Monde 2018 ?',
       [

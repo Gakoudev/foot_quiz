@@ -37,9 +37,9 @@ List<QuizQuestion> level1 = [
       ]),
   QuizQuestion(
       'Quel est le nombre de Champions League de Cristiano Ronaldo ?', [
+    '5',
     '4',
     '3',
-    '5',
     '2',
   ]),
   QuizQuestion(
@@ -66,10 +66,12 @@ List<QuizQuestion> level1 = [
         'Cristiano Ronaldo',
         'Mohamed Salah',
       ]),
-  QuizQuestion('Quel joueur a remporté le Ballon d\'Or en 2020 ?', [
-    'Robert Lewandowski',
-    'Lionel Messi',
-    'Cristiano Ronaldo',
-    'Kevin De Bruyne',
-  ]),
+  QuizQuestion(
+      'Quelle équipe a remporté le plus de titres de la Coupe d\'Afrique des Nations ?',
+      [
+        'Égypte',
+        'Cameroun',
+        'Nigeria',
+        'Ghana',
+      ]),
 ];

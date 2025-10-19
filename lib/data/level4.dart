@@ -37,14 +37,12 @@ List<QuizQuestion> level4 = [
     'Boca Juniors',
     'Independiente',
   ]),
-  QuizQuestion(
-      'Quel joueur a remporté le prix du Meilleur Joueur de la Coupe d\'Afrique des Nations 2019 ?',
-      [
-        'Riyad Mahrez',
-        'Sadio Mané',
-        'Mohamed Salah',
-        'Hakim Ziyech',
-      ]),
+  QuizQuestion('Quel est le joueur le plus titré en Coupe du monde ?', [
+    'Pelé',
+    'Carlos José Castilho',
+    'Maradona',
+    'Giuseppe Meazza',
+  ]),
   QuizQuestion('Quel  joueur a remporté le Ballon d\'Or 2018 ?', [
     'Luka Modrić',
     'Neymar',

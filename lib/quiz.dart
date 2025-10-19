@@ -31,6 +31,7 @@ class _QuizState extends State<Quiz> {
 
   void switchScreen() {
     setState(() {
+      index = 0;
       score = 0;
       selectedAnswer = [];
       activeScreen = 'questions-screen';
@@ -43,7 +44,6 @@ class _QuizState extends State<Quiz> {
       selectedAnswer = [];
       activeScreen = 'questions-screen';
       index++;
-      print(score);
     });
     if (index >= 4) {
       globalResultScreen();
